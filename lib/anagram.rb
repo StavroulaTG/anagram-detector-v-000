@@ -11,6 +11,9 @@ class Anagram
     anagrams = []
     words.each do |word|
       if word.split("").sort == @word.split("").sort
-    anagrams << word
+        anagrams << word
+      end
+    end
+    anagrams
   end
 end
