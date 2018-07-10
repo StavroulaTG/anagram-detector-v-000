@@ -8,8 +8,9 @@ class Anagram
   end
 
   def match(words)
+    anagrams = []
     word.split(" ").sort == @word.split(" ").sort
     anagrams << word
-    
+
   end
  end
