@@ -6,5 +6,5 @@ class Anagram
     @anagram = anagram
   end
 
-  
-end
+
+enld
